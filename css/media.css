@@ -1,41 +1,124 @@
 @media (max-width: 1250px) {
-	.main {
-		max-width: 1000px;
+	.content-info {
+		padding: 40px;
+		/*max-width: 420px;*/
 	}
-
-	.image {
-		max-width: 500px;
+	.content-img {
+		/*max-width: 500px;*/
 	}
 }
 
-@media (max-width: 1150px) {
-	.main {
-		max-width: 700px;
+@media (max-width: 1170px) {
+	.content-info {
+		max-width: 400px;
 	}
-
-	.main-image {
-		background: url(./../images/image-product-mobile.jpg);
-		background-repeat: no-repeat;
-		background-position: cover;
-		height: 500px;
-		width: 730px;
-		transform: translateY(20px);
+	.content-img {
+		max-width: 480px;
+		background-size: cover;
 	}
+}
 
-	.main-content {
-
+@media (max-width: 1050px) {
+	.content-name {
+		font-size: 20px;
 	}
-
-	.image {
-		
+	.content-title {
+		font-size: 60px;
 	}
+	.content-info p {
+		font-size: 23px;
+	}
+	.new-price {
+		font-size: 50px;
+	}
+	.content-info {
+		justify-content: space-between;
+	}
+	.content-info {
+		padding: 35px;
+		max-width: 320px;
+	}
+	.content-img {
+		max-width: 390px;
+	}
+}
 
-	.main-container {
+@media (max-width: 850px) {
+	.content {
 		flex-direction: column;
+		align-items: center;
+		margin-top: 15px;
+	} 
+	.content-img {
+		background-image: url("../images/image-product-mobile.jpg");
+		background-position: bottom;
+		background-size: contain;
+		max-width: 600px;
+		max-height: 420px;
+	}
+	.content-info {
+		max-width: 530px;
+	}
+	.content-name {
+		margin-bottom: 30px;
+	} 
+	.content-title {
+		margin-bottom: 30px;
+	}
+	.content-info p {
+		margin-bottom: 35px;
+	}
+	.content-price {
+		margin-bottom: 40px;
+	}
+	.content-btn {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.content-btn img {
+		width: 20px;
+	}
+	.btn-add {
+		font-size: 15px;
+	}
+	.main {
+		margin: 20px auto;
 	}
 }
 
-@media (max-width: 1000px) {
-	
-
+@media (max-width: 620px) {
+	.content-img {
+		max-width: 340px;
+	}
+	.content-info {
+		max-width: 290px;
+	}
+	.content-name {
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+	.content-info {
+		padding: 25px;
+	}
+	.content-title {
+		font-size: 32px;
+		margin-bottom: 12px;
+	}
+	.content-info p {
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+	.new-price {
+		font-size: 30px;
+		margin-right: 20px;
+	}
+	.old-price {
+		font-size: 13px;
+	}
+	.content-price {
+		margin-bottom: 20px;
+	}
+	.content-btn {
+		border-radius: 10px;
+	}
 }

@@ -60,6 +60,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	border-radius: 50%;
 }
 
 .content {
@@ -72,6 +73,8 @@ body {
 .content-img {
 	background-image: url("../images/image-product-desktop.jpg");
 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 	width: 600px;
 	height: 900px;
 }
@@ -79,6 +82,7 @@ body {
 .content-info {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	max-width: 480px;
 	padding: 60px;
 	background-color: white;
@@ -113,8 +117,6 @@ body {
 	display: flex;
 	align-items: center;
 	margin-bottom: 60px;
-	/*flex-direction: row;
-	flex-wrap: nowrap;*/
 }
 
 .new-price {
